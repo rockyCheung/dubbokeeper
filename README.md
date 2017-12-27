@@ -56,7 +56,7 @@ dubbokeeper在1.0.1版本对监控数据存储模块抽离出来，做为单独�
 其中`xxx-dubbokeeper-ui`下会有一个war包，将该war包部署到tomcat或者jetty里面（或者其他servlet容器），那么就部署好了监控展示应用了
 
 
-> 3、监控数据暂时端调整配置
+> 3、监控数据监视端调整配置
 
 对上面的war包解压出来后对其中`WEB-INF/classes/dubbo.properties`文件中的配置项进行调整。
 
